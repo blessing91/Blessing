@@ -17,6 +17,7 @@ const eslintConfig = [
       'prettier/prettier': 'error',
       'arrow-body-style': 'off',
       'prefer-arrow-callback': 'off',
+      '@next/next/no-img-element': 'off',
     },
   },
 ];

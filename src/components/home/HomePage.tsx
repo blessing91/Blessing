@@ -117,7 +117,7 @@ const Hero = () => {
               <div className="relative bg-white rounded-2xl overflow-hidden shadow-sm">
                 <div className="aspect-square w-full relative">
                   <Image
-                    src="/images/headshot.png"
+                    src="/images/headshot.jpg"
                     alt="Blessing Adenekan"
                     fill
                     className="object-cover"
