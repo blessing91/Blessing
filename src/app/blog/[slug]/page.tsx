@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
 
 export default async function BlogPostPage({ params }: Readonly<BlogPostPageProps>) {
   const slug = (await params).slug;
-  const { default: Post } = await import(`@/content/blog/${slug}.mdx`);
+  const { default: Post } = await import(`../../../content/blog/${slug}.mdx`);
   const post = getBlogPost(slug);
 
   if (!post) {
